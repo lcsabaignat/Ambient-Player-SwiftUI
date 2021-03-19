@@ -48,7 +48,6 @@
 		604727372604B45A00B2399D /* AmbientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmbientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6047273B2604B45A00B2399D /* AmbientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbientUITests.swift; sourceTree = "<group>"; };
 		6047273D2604B45A00B2399D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		604727672604B63B00B2399D /* Ambient.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Ambient.entitlements; sourceTree = "<group>"; };
 		BE6C79F8E8DBDF7C113D055C /* Pods_Ambient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ambient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -103,7 +102,6 @@
 		6047271D2604B45900B2399D /* Ambient */ = {
 			isa = PBXGroup;
 			children = (
-				604727672604B63B00B2399D /* Ambient.entitlements */,
 				6047271E2604B45900B2399D /* AmbientApp.swift */,
 				604727202604B45900B2399D /* ContentView.swift */,
 				604727222604B45A00B2399D /* Assets.xcassets */,
