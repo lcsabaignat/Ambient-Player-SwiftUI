@@ -14,10 +14,17 @@
 		604727312604B45A00B2399D /* AmbientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604727302604B45A00B2399D /* AmbientTests.swift */; };
 		6047273C2604B45A00B2399D /* AmbientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6047273B2604B45A00B2399D /* AmbientUITests.swift */; };
 		604727B22604D4C200B2399D /* InlineAdvertisingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604727B12604D4C200B2399D /* InlineAdvertisingView.swift */; };
-		604727C02604EF9100B2399D /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604727BF2604EF9100B2399D /* PlayerView.swift */; };
 		604727DE260509E100B2399D /* PlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604727DD260509E100B2399D /* PlayerViewModel.swift */; };
+		6072A126261D88AB00C3AC80 /* SoundService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6072A125261D88AB00C3AC80 /* SoundService.swift */; };
 		60A71A8D2608AD9A00F6E26F /* PlayerControlButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A71A8C2608AD9A00F6E26F /* PlayerControlButtonsView.swift */; };
 		60A71A952608AE0800F6E26F /* PlayerButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A71A942608AE0800F6E26F /* PlayerButtonsView.swift */; };
+		60E25FC7261C5B7C00733D95 /* MotionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E25FC6261C5B7C00733D95 /* MotionService.swift */; };
+		60E25FCF261C5C1400733D95 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E25FCE261C5C1400733D95 /* PlayerView.swift */; };
+		60E25FD7261C5C5F00733D95 /* Blur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E25FD6261C5C5F00733D95 /* Blur.swift */; };
+		60E25FE3261C5D1100733D95 /* MotionGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E25FE2261C5D1100733D95 /* MotionGradient.swift */; };
+		60EA6469261D945600294350 /* Storm_Rain_Gentle_25.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 60EA6468261D945600294350 /* Storm_Rain_Gentle_25.mp3 */; };
+		60EA6499261DA38400294350 /* VolumeLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EA6498261DA38400294350 /* VolumeLevel.swift */; };
+		60EA649E261DA54700294350 /* SoundItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EA649D261DA54700294350 /* SoundItem.swift */; };
 		7A8EB6F380DEE1588B94DAAC /* Pods_Ambient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE6C79F8E8DBDF7C113D055C /* Pods_Ambient.framework */; };
 /* End PBXBuildFile section */
 
@@ -54,10 +61,17 @@
 		6047273B2604B45A00B2399D /* AmbientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbientUITests.swift; sourceTree = "<group>"; };
 		6047273D2604B45A00B2399D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		604727B12604D4C200B2399D /* InlineAdvertisingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InlineAdvertisingView.swift; sourceTree = "<group>"; };
-		604727BF2604EF9100B2399D /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
 		604727DD260509E100B2399D /* PlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewModel.swift; sourceTree = "<group>"; };
+		6072A125261D88AB00C3AC80 /* SoundService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundService.swift; sourceTree = "<group>"; };
 		60A71A8C2608AD9A00F6E26F /* PlayerControlButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerControlButtonsView.swift; sourceTree = "<group>"; };
 		60A71A942608AE0800F6E26F /* PlayerButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerButtonsView.swift; sourceTree = "<group>"; };
+		60E25FC6261C5B7C00733D95 /* MotionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionService.swift; sourceTree = "<group>"; };
+		60E25FCE261C5C1400733D95 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		60E25FD6261C5C5F00733D95 /* Blur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blur.swift; sourceTree = "<group>"; };
+		60E25FE2261C5D1100733D95 /* MotionGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionGradient.swift; sourceTree = "<group>"; };
+		60EA6468261D945600294350 /* Storm_Rain_Gentle_25.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Storm_Rain_Gentle_25.mp3; path = ../../../../../../Desktop/Storm_Rain_Gentle_25.mp3; sourceTree = "<group>"; };
+		60EA6498261DA38400294350 /* VolumeLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeLevel.swift; sourceTree = "<group>"; };
+		60EA649D261DA54700294350 /* SoundItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundItem.swift; sourceTree = "<group>"; };
 		BE6C79F8E8DBDF7C113D055C /* Pods_Ambient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ambient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -114,12 +128,14 @@
 		6047271D2604B45900B2399D /* Ambient */ = {
 			isa = PBXGroup;
 			children = (
-				604727D92605082200B2399D /* Player */,
-				604727A52604D10600B2399D /* Advertising */,
+				60E25FC5261C5B5000733D95 /* Services */,
+				60E25FC4261C5B4A00733D95 /* Models */,
+				60E25FC2261C5B3200733D95 /* ViewModels */,
+				60E25FC1261C5B2300733D95 /* Views */,
 				6047271E2604B45900B2399D /* AmbientApp.swift */,
-				604727202604B45900B2399D /* ContentView.swift */,
 				604727222604B45A00B2399D /* Assets.xcassets */,
 				604727272604B45A00B2399D /* Info.plist */,
+				60EA6467261D93F400294350 /* BundledAssets */,
 				604727242604B45A00B2399D /* Preview Content */,
 			);
 			path = Ambient;
@@ -162,12 +178,73 @@
 		604727D92605082200B2399D /* Player */ = {
 			isa = PBXGroup;
 			children = (
-				604727BF2604EF9100B2399D /* PlayerView.swift */,
+				60E25FCE261C5C1400733D95 /* PlayerView.swift */,
 				60A71A942608AE0800F6E26F /* PlayerButtonsView.swift */,
 				60A71A8C2608AD9A00F6E26F /* PlayerControlButtonsView.swift */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		60E25FC1261C5B2300733D95 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				604727D92605082200B2399D /* Player */,
+				604727A52604D10600B2399D /* Advertising */,
+				60E25FDB261C5C8800733D95 /* Helpers */,
+				604727202604B45900B2399D /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		60E25FC2261C5B3200733D95 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				60E25FC3261C5B3D00733D95 /* Player */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		60E25FC3261C5B3D00733D95 /* Player */ = {
+			isa = PBXGroup;
+			children = (
 				604727DD260509E100B2399D /* PlayerViewModel.swift */,
 			);
 			path = Player;
+			sourceTree = "<group>";
+		};
+		60E25FC4261C5B4A00733D95 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				60EA6498261DA38400294350 /* VolumeLevel.swift */,
+				60EA649D261DA54700294350 /* SoundItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		60E25FC5261C5B5000733D95 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				60E25FC6261C5B7C00733D95 /* MotionService.swift */,
+				6072A125261D88AB00C3AC80 /* SoundService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		60E25FDB261C5C8800733D95 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				60E25FD6261C5C5F00733D95 /* Blur.swift */,
+				60E25FE2261C5D1100733D95 /* MotionGradient.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		60EA6467261D93F400294350 /* BundledAssets */ = {
+			isa = PBXGroup;
+			children = (
+				60EA6468261D945600294350 /* Storm_Rain_Gentle_25.mp3 */,
+			);
+			path = BundledAssets;
 			sourceTree = "<group>";
 		};
 		858BD071A914BA90D46CA3CE /* Frameworks */ = {
@@ -295,6 +372,7 @@
 			files = (
 				604727262604B45A00B2399D /* Preview Assets.xcassets in Resources */,
 				604727232604B45A00B2399D /* Assets.xcassets in Resources */,
+				60EA6469261D945600294350 /* Storm_Rain_Gentle_25.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,12 +439,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60EA6499261DA38400294350 /* VolumeLevel.swift in Sources */,
+				60E25FE3261C5D1100733D95 /* MotionGradient.swift in Sources */,
 				60A71A952608AE0800F6E26F /* PlayerButtonsView.swift in Sources */,
 				604727212604B45900B2399D /* ContentView.swift in Sources */,
+				60E25FD7261C5C5F00733D95 /* Blur.swift in Sources */,
+				60E25FCF261C5C1400733D95 /* PlayerView.swift in Sources */,
 				604727DE260509E100B2399D /* PlayerViewModel.swift in Sources */,
 				604727B22604D4C200B2399D /* InlineAdvertisingView.swift in Sources */,
+				6072A126261D88AB00C3AC80 /* SoundService.swift in Sources */,
 				6047271F2604B45900B2399D /* AmbientApp.swift in Sources */,
-				604727C02604EF9100B2399D /* PlayerView.swift in Sources */,
+				60EA649E261DA54700294350 /* SoundItem.swift in Sources */,
+				60E25FC7261C5B7C00733D95 /* MotionService.swift in Sources */,
 				60A71A8D2608AD9A00F6E26F /* PlayerControlButtonsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -526,9 +610,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Ambient/Ambient.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_ASSET_PATHS = "\"Ambient/Preview Content\"";
-				DEVELOPMENT_TEAM = 4A8UQ453N9;
+				DEVELOPMENT_TEAM = QA7C3BG73H;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Ambient/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -536,8 +621,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.smallapps.Ambient;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iquestint.Ambient;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "iQuest Wildcard Dev";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -551,9 +637,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Ambient/Ambient.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_ASSET_PATHS = "\"Ambient/Preview Content\"";
-				DEVELOPMENT_TEAM = 4A8UQ453N9;
+				DEVELOPMENT_TEAM = QA7C3BG73H;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Ambient/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -561,8 +648,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.smallapps.Ambient;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iquestint.Ambient;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "iQuest Wildcard Dev";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

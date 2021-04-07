@@ -28,9 +28,12 @@ struct AmbientApp: App {
     WindowGroup {
       ContentView()
         .background(
-          LinearGradient(gradient: Gradient(colors: [.white, .red, .black]),
-                         startPoint: .topLeading,
-                         endPoint: .bottomTrailing)
+          MotionGradient(gradient: Gradient(colors: [
+            Color(red: 0.7, green: 0.3, blue: 0.6),
+            Color(red: 0.5, green: 0.4, blue: 0.7),
+            Color(red: 0.3, green: 0.5, blue: 0.8),
+            Color(red: 0.1, green: 0.6, blue: 0.9),
+          ]))
         )
         .ignoresSafeArea()
     }
