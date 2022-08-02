@@ -5,7 +5,7 @@ source 'git@git.vzbuilders.com:TacoCorp/devops-cocoapods.git'
 target 'Ambient' do
   use_frameworks!
   project "Ambient/Ambient.xcproj"
-  pod 'Verizon-Ads-StandardEdition', '~>1.11.0-beta'
+  pod 'Verizon-Ads-StandardEdition', '~>1.11.0'
 end
 
 post_install do |installer_representation|

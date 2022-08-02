@@ -22,9 +22,9 @@
 		60E25FCF261C5C1400733D95 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E25FCE261C5C1400733D95 /* PlayerView.swift */; };
 		60E25FD7261C5C5F00733D95 /* Blur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E25FD6261C5C5F00733D95 /* Blur.swift */; };
 		60E25FE3261C5D1100733D95 /* MotionGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E25FE2261C5D1100733D95 /* MotionGradient.swift */; };
-		60EA6469261D945600294350 /* Storm_Rain_Gentle_25.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 60EA6468261D945600294350 /* Storm_Rain_Gentle_25.mp3 */; };
 		60EA6499261DA38400294350 /* VolumeLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EA6498261DA38400294350 /* VolumeLevel.swift */; };
 		60EA649E261DA54700294350 /* SoundItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EA649D261DA54700294350 /* SoundItem.swift */; };
+		60FDB5702899601B0038E76E /* Storm_Rain_Gentle_25.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 60FDB56F2899601B0038E76E /* Storm_Rain_Gentle_25.mp3 */; };
 		7A8EB6F380DEE1588B94DAAC /* Pods_Ambient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE6C79F8E8DBDF7C113D055C /* Pods_Ambient.framework */; };
 /* End PBXBuildFile section */
 
@@ -69,9 +69,9 @@
 		60E25FCE261C5C1400733D95 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
 		60E25FD6261C5C5F00733D95 /* Blur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blur.swift; sourceTree = "<group>"; };
 		60E25FE2261C5D1100733D95 /* MotionGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionGradient.swift; sourceTree = "<group>"; };
-		60EA6468261D945600294350 /* Storm_Rain_Gentle_25.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Storm_Rain_Gentle_25.mp3; path = ../../../../../../Desktop/Storm_Rain_Gentle_25.mp3; sourceTree = "<group>"; };
 		60EA6498261DA38400294350 /* VolumeLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeLevel.swift; sourceTree = "<group>"; };
 		60EA649D261DA54700294350 /* SoundItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundItem.swift; sourceTree = "<group>"; };
+		60FDB56F2899601B0038E76E /* Storm_Rain_Gentle_25.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Storm_Rain_Gentle_25.mp3; sourceTree = "<group>"; };
 		BE6C79F8E8DBDF7C113D055C /* Pods_Ambient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ambient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -242,7 +242,7 @@
 		60EA6467261D93F400294350 /* BundledAssets */ = {
 			isa = PBXGroup;
 			children = (
-				60EA6468261D945600294350 /* Storm_Rain_Gentle_25.mp3 */,
+				60FDB56F2899601B0038E76E /* Storm_Rain_Gentle_25.mp3 */,
 			);
 			path = BundledAssets;
 			sourceTree = "<group>";
@@ -370,9 +370,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60FDB5702899601B0038E76E /* Storm_Rain_Gentle_25.mp3 in Resources */,
 				604727262604B45A00B2399D /* Preview Assets.xcassets in Resources */,
 				604727232604B45A00B2399D /* Assets.xcassets in Resources */,
-				60EA6469261D945600294350 /* Storm_Rain_Gentle_25.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
